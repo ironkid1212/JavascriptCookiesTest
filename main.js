@@ -23,11 +23,12 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome back, " + user);
+    alert("Welcome again " + user);
   } else {
-    user = prompt("Hi, what's your username?:", "");
+    user = prompt("Please enter your name:", "");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
     }
   }
 }
+checkCookie()
