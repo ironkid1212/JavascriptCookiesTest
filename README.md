@@ -1,0 +1,2 @@
+# JavascriptCookiesTest
+Just a test.
